@@ -20,7 +20,7 @@ First Test
     Click Element    //*[@content-desc="Search"]
     # Search for "Kuplinov play.linearLayout"
     Input Text Into Current Element     Kuplinov play
-    Sleep    5s
+    Sleep    2s
 
     Click Element    //*[@resource-id="com.google.android.youtube:id/linearLayout"]
     Sleep    2s
@@ -37,5 +37,33 @@ First Test
     Sleep    3s  # Adjust this sleep duration if necessary
 
     Close Application
+Second Test
+    Open Application    http://127.0.0.1:4723
+    ...     automationName=UiAutomator2
+    ...     platformName=Android
+    ...     platformVersion=15
+    ...     deviceName=sdk_gphone64_x86_64
+    ...     udid=emulator-5554
+    ...     appPackage=com.android.chrome
+    ...     appActivity=com.google.android.apps.chrome.Main
+    Sleep    1s
+    Click Element    //*[@text="Use without an account"]
+    Sleep    1s
+    Click Element    //*[@text="Got it"]
 
+    Wait Until Page Contains Element    //*[@text="Search or type URL"]
+    Click Element    //*[@text="Search or type URL"]
+    # Search for "Kuplinov play.linearLayout"
+    Input Text Into Current Element     Kuplinov play
+    Sleep    1s
+    Wait Until Page Contains Element    //*[@text="Kuplinov play"]
 
+    Click Element    //*[@text="Kuplinov play"]
+    Sleep    2s
+
+    Swipe   500    100    100    0   1000
+
+    # Play the video
+    Sleep    3s  # Adjust this sleep duration if necessary
+
+    Close Application

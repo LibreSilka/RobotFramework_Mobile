@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.10.0 on win32)" generated="2024-12-24T16:45:00.382270" rpa="false" schemaversion="5">
-<suite id="s1" name="Efef" source="C:\Users\hrobo\PycharmProjects\mobile\efef.robot">
+<robot generator="Robot 7.1.1 (Python 3.10.0 on win32)" generated="2024-12-24T21:26:04.436418" rpa="false" schemaversion="5">
+<suite id="s1" name="First Test" source="C:\Users\hrobo\PycharmProjects\mobile\First_Test.robot">
 <test id="s1-t1" name="First Test" line="6">
 <kw name="Open Application" owner="AppiumLibrary">
 <arg>http://127.0.0.1:4723</arg>
@@ -18,59 +18,59 @@ Please check https://appium.io/docs/en/2.1/cli/args/
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" start="2024-12-24T16:45:00.567277" elapsed="5.336784"/>
+<status status="PASS" start="2024-12-24T21:26:04.631071" elapsed="5.592314"/>
 </kw>
 <kw name="Click Element" owner="AppiumLibrary">
-<msg time="2024-12-24T16:45:05.904061" level="INFO">Clicking element '//*[@text="Allow"]'.</msg>
-<msg time="2024-12-24T16:45:07.554435" level="INFO">xpath criteria: //*[@text="Allow"]</msg>
+<msg time="2024-12-24T21:26:10.225934" level="INFO">Clicking element '//*[@text="Allow"]'.</msg>
+<msg time="2024-12-24T21:26:12.397011" level="INFO">xpath criteria: //*[@text="Allow"]</msg>
 <arg>//*[@text="Allow"]</arg>
 <doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2024-12-24T16:45:05.904061" elapsed="1.650374"/>
+<status status="PASS" start="2024-12-24T21:26:10.224433" elapsed="2.172578"/>
 </kw>
 <kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
-<msg time="2024-12-24T16:45:07.668364" level="INFO">xpath criteria: //*[@content-desc="Search"]</msg>
+<msg time="2024-12-24T21:26:12.568615" level="INFO">xpath criteria: //*[@content-desc="Search"]</msg>
 <arg>//*[@content-desc="Search"]</arg>
 <doc>Waits until element specified with `locator` appears on current page.</doc>
-<status status="PASS" start="2024-12-24T16:45:07.554435" elapsed="0.113929"/>
+<status status="PASS" start="2024-12-24T21:26:12.397011" elapsed="0.172604"/>
 </kw>
 <kw name="Click Element" owner="AppiumLibrary">
-<msg time="2024-12-24T16:45:07.669886" level="INFO">Clicking element '//*[@content-desc="Search"]'.</msg>
-<msg time="2024-12-24T16:45:08.220906" level="INFO">xpath criteria: //*[@content-desc="Search"]</msg>
+<msg time="2024-12-24T21:26:12.570616" level="INFO">Clicking element '//*[@content-desc="Search"]'.</msg>
+<msg time="2024-12-24T21:26:13.169695" level="INFO">xpath criteria: //*[@content-desc="Search"]</msg>
 <arg>//*[@content-desc="Search"]</arg>
 <doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2024-12-24T16:45:07.668364" elapsed="0.552542"/>
+<status status="PASS" start="2024-12-24T21:26:12.569615" elapsed="0.600080"/>
 </kw>
 <kw name="Input Text Into Current Element" owner="AppiumLibrary">
-<msg time="2024-12-24T16:45:08.221906" level="INFO">Typing text 'Kuplinov play' into current text field</msg>
+<msg time="2024-12-24T21:26:13.171198" level="INFO">Typing text 'Kuplinov play' into current text field</msg>
 <arg>Kuplinov play</arg>
 <doc>Types the given `text` into currently selected text field.</doc>
-<status status="PASS" start="2024-12-24T16:45:08.220906" elapsed="1.377059"/>
+<status status="PASS" start="2024-12-24T21:26:13.169695" elapsed="1.410599"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-12-24T16:45:14.600695" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-12-24T16:45:09.597965" elapsed="5.002730"/>
-</kw>
-<kw name="Click Element" owner="AppiumLibrary">
-<msg time="2024-12-24T16:45:14.602199" level="INFO">Clicking element '//*[@resource-id="com.google.android.youtube:id/linearLayout"]'.</msg>
-<msg time="2024-12-24T16:45:16.021528" level="INFO">xpath criteria: //*[@resource-id="com.google.android.youtube:id/linearLayout"]</msg>
-<arg>//*[@resource-id="com.google.android.youtube:id/linearLayout"]</arg>
-<doc>Click element identified by `locator`.</doc>
-<status status="PASS" start="2024-12-24T16:45:14.600695" elapsed="1.420833"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2024-12-24T16:45:18.029234" level="INFO">Slept 2 seconds.</msg>
+<msg time="2024-12-24T21:26:16.583734" level="INFO">Slept 2 seconds.</msg>
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-12-24T16:45:16.022123" elapsed="2.007352"/>
+<status status="PASS" start="2024-12-24T21:26:14.581617" elapsed="2.002117"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:16.585321" level="INFO">Clicking element '//*[@resource-id="com.google.android.youtube:id/linearLayout"]'.</msg>
+<msg time="2024-12-24T21:26:17.989326" level="INFO">xpath criteria: //*[@resource-id="com.google.android.youtube:id/linearLayout"]</msg>
+<arg>//*[@resource-id="com.google.android.youtube:id/linearLayout"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-12-24T21:26:16.583734" elapsed="1.405592"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:19.990355" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:17.990328" elapsed="2.000027"/>
 </kw>
 <kw name="Tap With Positions" owner="AppiumLibrary">
 <arg>500</arg>
 <arg>1300</arg>
 <doc>Taps on a particular place with up to five fingers, holding for a
 certain time</doc>
-<status status="PASS" start="2024-12-24T16:45:18.029978" elapsed="0.800501"/>
+<status status="PASS" start="2024-12-24T21:26:19.990355" elapsed="0.796063"/>
 </kw>
 <kw name="Swipe" owner="AppiumLibrary">
 <arg>500</arg>
@@ -79,30 +79,140 @@ certain time</doc>
 <arg>0</arg>
 <arg>1000</arg>
 <doc>Swipe from one point to another point, for an optional duration.</doc>
-<status status="PASS" start="2024-12-24T16:45:18.830479" elapsed="1.298226"/>
+<status status="PASS" start="2024-12-24T21:26:20.786418" elapsed="1.296059"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2024-12-24T16:45:23.135065" level="INFO">Slept 3 seconds.</msg>
+<msg time="2024-12-24T21:26:25.087469" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2024-12-24T16:45:20.128705" elapsed="3.006360"/>
+<status status="PASS" start="2024-12-24T21:26:22.082477" elapsed="3.004992"/>
 </kw>
 <kw name="Close Application" owner="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" start="2024-12-24T16:45:23.135065" elapsed="0.191813"/>
+<status status="PASS" start="2024-12-24T21:26:25.087974" elapsed="0.205855"/>
 </kw>
-<status status="PASS" start="2024-12-24T16:45:00.565770" elapsed="22.761108"/>
+<status status="PASS" start="2024-12-24T21:26:04.629568" elapsed="20.664261"/>
 </test>
-<status status="PASS" start="2024-12-24T16:45:00.384272" elapsed="22.943118"/>
+<test id="s1-t2" name="Second Test" line="40">
+<kw name="Open Application" owner="AppiumLibrary">
+<arg>http://127.0.0.1:4723</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=15</arg>
+<arg>deviceName=sdk_gphone64_x86_64</arg>
+<arg>udid=emulator-5554</arg>
+<arg>appPackage=com.android.chrome</arg>
+<arg>appActivity=com.google.android.apps.chrome.Main</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" start="2024-12-24T21:26:25.295336" elapsed="4.799654"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:31.096990" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:30.095495" elapsed="1.001495"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:31.098012" level="INFO">Clicking element '//*[@text="Use without an account"]'.</msg>
+<msg time="2024-12-24T21:26:32.536709" level="INFO">xpath criteria: //*[@text="Use without an account"]</msg>
+<arg>//*[@text="Use without an account"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-12-24T21:26:31.096990" elapsed="1.439719"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:33.541252" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:32.537213" elapsed="1.004039"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:33.543340" level="INFO">Clicking element '//*[@text="Got it"]'.</msg>
+<msg time="2024-12-24T21:26:33.886638" level="INFO">xpath criteria: //*[@text="Got it"]</msg>
+<arg>//*[@text="Got it"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-12-24T21:26:33.541252" elapsed="0.345386"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:34.239439" level="INFO">xpath criteria: //*[@text="Search or type URL"]</msg>
+<arg>//*[@text="Search or type URL"]</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" start="2024-12-24T21:26:33.886638" elapsed="0.354258"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:34.240896" level="INFO">Clicking element '//*[@text="Search or type URL"]'.</msg>
+<msg time="2024-12-24T21:26:36.923190" level="INFO">xpath criteria: //*[@text="Search or type URL"]</msg>
+<arg>//*[@text="Search or type URL"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-12-24T21:26:34.240896" elapsed="2.682294"/>
+</kw>
+<kw name="Input Text Into Current Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:36.925078" level="INFO">Typing text 'Kuplinov play' into current text field</msg>
+<arg>Kuplinov play</arg>
+<doc>Types the given `text` into currently selected text field.</doc>
+<status status="PASS" start="2024-12-24T21:26:36.923190" elapsed="0.089401"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:38.023689" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:37.012591" elapsed="1.011098"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:38.632519" level="INFO">xpath criteria: //*[@text="Kuplinov play"]</msg>
+<arg>//*[@text="Kuplinov play"]</arg>
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<status status="PASS" start="2024-12-24T21:26:38.023689" elapsed="0.608830"/>
+</kw>
+<kw name="Click Element" owner="AppiumLibrary">
+<msg time="2024-12-24T21:26:38.633525" level="INFO">Clicking element '//*[@text="Kuplinov play"]'.</msg>
+<msg time="2024-12-24T21:26:38.853681" level="INFO">xpath criteria: //*[@text="Kuplinov play"]</msg>
+<arg>//*[@text="Kuplinov play"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<status status="PASS" start="2024-12-24T21:26:38.632519" elapsed="0.221162"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:40.860487" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:38.853681" elapsed="2.006806"/>
+</kw>
+<kw name="Swipe" owner="AppiumLibrary">
+<arg>500</arg>
+<arg>100</arg>
+<arg>100</arg>
+<arg>0</arg>
+<arg>1000</arg>
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<status status="PASS" start="2024-12-24T21:26:40.860487" elapsed="1.318923"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-24T21:26:45.184377" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-24T21:26:42.179410" elapsed="3.004967"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" start="2024-12-24T21:26:45.184377" elapsed="0.371950"/>
+</kw>
+<status status="PASS" start="2024-12-24T21:26:25.295336" elapsed="20.260991"/>
+</test>
+<status status="PASS" start="2024-12-24T21:26:04.439426" elapsed="41.116901"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Efef">Efef</stat>
+<stat pass="2" fail="0" skip="0" id="s1" name="First Test">First Test</stat>
 </suite>
 </statistics>
 <errors>
