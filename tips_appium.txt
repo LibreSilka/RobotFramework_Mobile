@@ -1,0 +1,13 @@
+Template for appium inspector:
+
+{
+  "platformName": "Android",
+  "appium:platformVersion": "15",
+  "appium:deviceName": "sdk_gphone64_x86_64",
+  "appium:appPackage": "com.google.android.youtube",
+  "appium:udid": "emulator-5554",
+  "appium:appActivity": "com.google.android.youtube.HomeActivity",
+  "appium:automationName": "UiAutomator2",
+  "appium:noReset": true,
+  "appium:dontStopAppOnReset": true
+}
